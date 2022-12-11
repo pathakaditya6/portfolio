@@ -1,0 +1,143 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: rgba(58, 10, 3, 0.464);
+}
+
+/* navbar */
+.navbar-brand {
+    color: #fff;
+    font-weight: bolder;
+    transition: transform 0.5s;
+}
+.navbar-brand:hover{
+    color: rgb(176, 10, 10);
+    transform: translateY(-5px);
+}
+.nav-item .nav-link{
+    color: #fff;
+    font-weight: bold;
+    transition: transform 0.5s;
+}
+.nav-item .nav-link:hover{
+    color: rgb(175, 7, 7);
+    transform: translateY(-5px);
+}
+
+
+/* hero background */
+.bgimage {
+    height:100vh;
+    background-size:cover;
+    position:relative;
+}
+.bgimage{
+    background: #2b2a2a;
+}
+/*hero pic*/
+.heroPic img{
+    width: 300px;
+    
+}
+/* text css above */
+.hero_title {
+    font-size: 3rem;
+}
+.hero_desc {
+    font-size: 1rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hero-text .btn{
+    color: #f3c81e;
+    border-color: beige;
+    font-weight: bold;
+    transition: transform 0.5s;
+}
+.hero-text .btn:hover{
+    color: rgb(175, 7, 7);
+    transform: translateY(-5px);
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+/* only= text-center */
+.text-center{
+    color: rgb(176, 22, 22);
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* skills section css */
+.skillsText.card {
+    height: 100px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 20px;
+    text-align:left;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card-title:hover{
+    color: #500000;
+}
+.card:hover .servicesIcon {
+    color: #500000;
+}
+.skillsText:hover {
+    border: 1px solid #a55107;
+}
+
+/*project section */
+.bgimage1{
+    height: 100vh;
+    background: url('banner.jpg');
+    background-size: cover;
+    position: relative;
+}
+.text-center1{
+    color: #ffffff;
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+
+
+
+/* social media icons styling */
+.social-icons {
+    font-size: 30px;
+}
+
+
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+footer span a{
+    color:crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    color:tomato;
+}
+
