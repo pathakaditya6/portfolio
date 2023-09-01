@@ -1,6 +1,6 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: rgba(58, 10, 3, 0.464);
+    background-color: rgba(83, 7, 7);
 }
 
 /* navbar */
@@ -31,7 +31,7 @@
     position:relative;
 }
 .bgimage{
-    background: #2b2a2a;
+    background: #121212;
 }
 /*hero pic*/
 .heroPic img{
@@ -107,10 +107,7 @@
 
 /*project section */
 .bgimage1{
-    height: 100vh;
-    background: url('banner.jpg');
-    background-size: cover;
-    position: relative;
+    background: #121212;
 }
 .text-center1{
     color: #ffffff;
@@ -124,7 +121,7 @@
 
 /* social media icons styling */
 .social-icons {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
